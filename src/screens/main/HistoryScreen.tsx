@@ -8,8 +8,8 @@ const HistoryScreen = () => {
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
-          <Text variant="headlineMedium" style={styles.title}>
-            Bill History
+          <Text style={styles.title}>
+            History
           </Text>
 
           <Card style={styles.card}>
@@ -59,7 +59,9 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    marginBottom: 24,
+    fontSize: 32,
+    fontWeight: 'bold',
+    marginBottom: 20,
   },
   card: {
     marginBottom: 24,

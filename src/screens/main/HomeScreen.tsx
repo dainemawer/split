@@ -9,7 +9,7 @@ const HomeScreen = () => {
       <ScrollView style={styles.scrollView}>
         <View style={styles.content}>
           <Text variant="headlineMedium" style={styles.title}>
-            Welcome Back
+            Home
           </Text>
 
           <Card style={styles.card}>
@@ -57,7 +57,9 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    marginBottom: 24,
+    fontSize: 32,
+    fontWeight: 'bold',
+    marginBottom: 20,
   },
   card: {
     marginBottom: 16,
